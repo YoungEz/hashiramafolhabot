@@ -59,7 +59,7 @@ async def soma(ctx, n1: str=None, n2: str=None):
 @bot.event
 async def on_member_join(member):
 	emoji = get(bot.get_all_emojis(), name='PinguWithGun')
-	canal = bot.get_channel("535186557162749963")
+	canal = bot.get_channel("559509000790605830")
 	regras = bot.get_channel("535415004401369096")
 	registro = bot.get_channel("544255099078180890")
 	msg = "{} Seja bem vindo ao **{}** Leia as {} e va em {} para receber suas tags! {}".format(member.mention, message.server.name, regras.mention, registro.mention, emoji)
