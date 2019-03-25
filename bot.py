@@ -62,7 +62,7 @@ async def on_member_join(member):
 	canal = bot.get_channel("559509000790605830")
 	regras = bot.get_channel("535415004401369096")
 	registro = bot.get_channel("544255099078180890")
-	msg = "{} Seja bem vindo ao **{}** Leia as {} e va em {} para receber suas tags! {}".format(member.mention, message.server.name, regras.mention, registro.mention, emoji)
+	msg = "{} Seja bem vindo a **Aldeia Da Folha 🍃** Leia as {} e va em {} para receber suas tags! {}".format(member.mention, regras.mention, registro.mention, emoji)
 	await bot.send_message(canal, msg) 
 	
 
